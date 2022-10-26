@@ -24,4 +24,5 @@ Console.WriteLine("Введите количество столбцов в ма�
 int n = int.Parse(Console.ReadLine() ?? "0");
 double[,] matrix = new double[m, n];
 FillArray(matrix);
+Console.WriteLine("Ваш массив - ");
 PrintArray(matrix);
