@@ -26,4 +26,5 @@ Console.WriteLine("Введите количество столбцов в ма�
 int n = int.Parse(Console.ReadLine() ?? "0");
 int[,] A = new int[m, n];
 FillArray(A);
+Console.WriteLine("Ваш массив - ");
 PrintArray(A);
