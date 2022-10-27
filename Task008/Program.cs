@@ -41,8 +41,24 @@ while(i < m)
     }
     i++;
 }
+i = 0;
+int sumMin = sum[i];
+int iMin = -1;
+while(i < sum.Length)
+{
+    if(sum[i] < sumMin)
+    {
+        sumMin = sum[i];
+        iMin = i;
+    }
+    i++;
+}
 
+Console.Write($"Суммы строк - {sum[0]}  ");
+Console.Write($"Суммы строк - {sum[1]}  ");
 Console.Write($"Суммы строк - {sum[2]}  ");
 Console.WriteLine();
-
+Console.Write($"Сумма мин - {sumMin}  ");
+Console.WriteLine();
+Console.Write($"Сумма мин - {sumMin}  ");
 // Console.WriteLine($"Наименьшая сумма элементов в строке - {MinSumRowArray(matrix)}");
