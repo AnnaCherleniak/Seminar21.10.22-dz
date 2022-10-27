@@ -18,6 +18,28 @@ void PrintArray(int[,] matrix)
         Console.WriteLine();
     }
 }
+int SumElementsRowArray(int[,] matrix, int i)
+{
+    int summ = 0;
+    for(int j = 0; j < matrix.GetLength(1); j++)
+        summ = summ + matrix[i, j];
+    return summ;
+}
+int MinElementIndex(int[] array)
+{
+    int min = array[0];
+    int iMin = 0;
+    for(int i = 0; i < array.Length; i++)
+    {
+        if(array[i] < min)
+        {
+            min = array[i];
+            iMin = i;
+        }
+    }
+    return iMin;
+}
+
 
 Console.WriteLine("Введите количество строк в массиве - ");
 int m = int.Parse(Console.ReadLine() ?? "0");
@@ -27,38 +49,9 @@ int[,] matrix = new int[m, n];
 FillArray(matrix);
 Console.WriteLine("Ваш массив - ");
 PrintArray(matrix);
-int i = 0;
-int[] sum = new int[3];
-while(i < m)
-{
-    int j = 0;
-    int summ = 0;
-    while(j < n)
-    {
-        summ = summ + matrix[i, j];
-        sum[i] = summ;
-        j++;
-    }
-    i++;
-}
-i = 0;
-int sumMin = sum[i];
-int iMin = -1;
-while(i < sum.Length)
-{
-    if(sum[i] < sumMin)
-    {
-        sumMin = sum[i];
-        iMin = i;
-    }
-    i++;
-}
+int[] sum = new int[m];
+for(int i = 0; i < m; i++)
+    sum[i] = SumElementsRowArray(matrix, i);
+int iMin = MinElementIndex(sum);
+Console.WriteLine($"Строка с минимальной суммой - {iMin}  ");
 
-Console.Write($"Суммы строк - {sum[0]}  ");
-Console.Write($"Суммы строк - {sum[1]}  ");
-Console.Write($"Суммы строк - {sum[2]}  ");
-Console.WriteLine();
-Console.Write($"Сумма мин - {sumMin}  ");
-Console.WriteLine();
-Console.Write($"Сумма мин - {sumMin}  ");
-// Console.WriteLine($"Наименьшая сумма элементов в строке - {MinSumRowArray(matrix)}");
