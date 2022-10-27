@@ -23,32 +23,24 @@ int FindElementArrayRow(int[,] matrix, int N)
 {
     int x = -1;
     for(int i = 0; i < matrix.GetLength(0); i++)
-    {
         for(int j = 0; j < matrix.GetLength(1); j++)
-        {
             if(matrix[i, j] == N)
             {
                 x = i + 1;
                 break;                
             }
-        }
-    }
     return x;
 }
 int FindElementArrayColumn(int[,] matrix, int N)
 {
     int y = -1;
     for(int i = 0; i < matrix.GetLength(0); i++)
-    {
         for(int j = 0; j < matrix.GetLength(1); j++)
-        {
             if(matrix[i, j] == N)
             {
                 y = j + 1;
                 break;                
             }
-        }
-    }
     return y;
 }
 
