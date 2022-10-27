@@ -1,0 +1,16 @@
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\Task007.exe
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\Task007.deps.json
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\Task007.runtimeconfig.json
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\Task007.dll
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\ref\Task007.dll
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\bin\Debug\net6.0\Task007.pdb
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.GlobalUsings.g.cs
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.csproj.AssemblyReference.cache
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.AssemblyInfoInputs.cache
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.AssemblyInfo.cs
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.csproj.CoreCompileInputs.cache
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.dll
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\ref\Task007.dll
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.pdb
+C:\Users\Анна\Documents\ДЗ-Семинар-7\Seminar21.10.22-dz\Task007\obj\Debug\net6.0\Task007.genruntimeconfig.cache
